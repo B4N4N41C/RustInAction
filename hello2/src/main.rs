@@ -3,7 +3,7 @@ fn greet_world(){
 	let southern_germany = "GriiB Gott!";
 	let japan = "こんにちは世界";
 	let regions = [southern_germany, japan];
-	for regions in regions.iter() {
+	for region in regions.iter() {
 		println!("{}", &region);
 	}
 }
